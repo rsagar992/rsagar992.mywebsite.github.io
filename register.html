@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h3 style="color:black;" align="center"><font face="comic sans MS"><p>Registration</p></font></h3>
+
+<form action="registration" method="post">
+  <div class="container">
+  	<label><b>What are you?</b></label><br/>
+  	<p><input type="radio" name="register" value="retailer" required><font face="comic sans MS" style="color:purple;">Retailer</font>
+  	<input type="radio" name="register" value="distributor" required><font face="comic sans MS" style="color:purple;">Distributor</font></p>
+  	
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+        
+    <button type="submit"class="button" style="vertical-align:middle"><span>Register </span></button>
+  </div>
+</form>
+<a href="index.html"><button type="submit"class="button1" style="vertical-align:middle"><span>Cancel/Back</span></button></a>
+</body>
+</html>
